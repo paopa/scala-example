@@ -1,6 +1,6 @@
-package per.pao.example.test
+package per.pao.example.syntax.basic
 
-import per.pao.example.test.`object`.Complex
+import per.pao.example.syntax.basic.`object`.Complex
 
 object InfixOperatorTest {
 

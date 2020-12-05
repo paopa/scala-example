@@ -1,4 +1,4 @@
-package per.pao.example.test
+package per.pao.example.syntax.basic
 
 object SequenceTest {
 
@@ -13,7 +13,7 @@ object SequenceTest {
     println(third)
     val three: Seq[Int] = third.take(3)
     println(three)
-    println(this.seq )
+    println(this.seq)
   }
 
 }

@@ -1,4 +1,4 @@
-package per.pao.example.test
+package per.pao.example.syntax.basic
 
 object ReturnFunctionTest {
 
