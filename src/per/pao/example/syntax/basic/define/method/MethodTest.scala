@@ -31,14 +31,14 @@ object MethodTest {
 
   def msg(): Unit = println("Hello world")
 
-  def sum(nums: Int*):Int = nums.reduceLeft((sum, num) => sum + num)
+  def sum(nums: Int*): Int = nums.reduceLeft((sum, num) => sum + num)
 
   def main(args: Array[String]): Unit = {
-//    println(basicMethodTest(1, 2))
-//    println(skipReturnTest(1, 2))
-//    immutableTest(1)
-//    println(msg(100))
-//    msg()
+    //    println(basicMethodTest(1, 2))
+    //    println(skipReturnTest(1, 2))
+    //    immutableTest(1)
+    //    println(msg(100))
+    //    msg()
     println(sum(1, 2, 3, 4, 5))
   }
 
