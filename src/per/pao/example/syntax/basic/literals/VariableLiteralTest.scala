@@ -4,7 +4,7 @@ package per.pao.example.syntax.basic.literals
  * 目前了解 literals 的概念
  * 大概是指的是指說可以直接寫一個常數值在程式碼裡，編譯器會根據程式寫的常數對應到該對應的型態。
  */
-object Test {
+object VariableLiteralTest {
 
   def hexTest(): Unit = {
     val hexNum = 0x1afL
