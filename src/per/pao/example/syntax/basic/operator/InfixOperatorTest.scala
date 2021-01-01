@@ -1,4 +1,4 @@
-package per.pao.example.syntax.basic
+package per.pao.example.syntax.basic.operator
 
 import per.pao.example.syntax.basic.`object`.Complex
 

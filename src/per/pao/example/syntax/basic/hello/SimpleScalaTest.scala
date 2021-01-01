@@ -1,4 +1,4 @@
-package per.pao.example.syntax.basic
+package per.pao.example.syntax.basic.hello
 
 /**
  * object like static class all method is static
