@@ -1,6 +1,7 @@
 package per.pao.example.syntax.basic.operator
 
 import scala.language.postfixOps
+
 /**
  * In scala operators are methods & any method can be an operator
  *
@@ -54,6 +55,8 @@ object Test {
   def postfixTest(): Unit = {
     val t = "ABCD" toLowerCase;
     println(t)
+    val t2 = "ABCD".toLowerCase() toUpperCase;
+    println(t2)
   }
 
   def main(args: Array[String]): Unit = {
