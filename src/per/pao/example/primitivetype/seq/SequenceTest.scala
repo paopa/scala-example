@@ -1,4 +1,4 @@
-package per.pao.example.primitivetype
+package per.pao.example.primitivetype.seq
 
 object SequenceTest {
 
