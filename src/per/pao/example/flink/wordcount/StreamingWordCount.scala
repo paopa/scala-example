@@ -13,7 +13,7 @@ object StreamingWordCount {
       .keyBy(0)
       .sum(1)
 
-    wordCount.print().setParallelism(2)
+    wordCount.print().setParallelism(1)
     env.execute()
   }
 

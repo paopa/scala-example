@@ -7,7 +7,6 @@ import org.apache.flink.api.scala._
  */
 object WordCount {
   def main(args: Array[String]): Unit = {
-
     // 創建執行環境
     val env = ExecutionEnvironment.getExecutionEnvironment
 
