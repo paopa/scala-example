@@ -4,6 +4,9 @@ import org.apache.flink.streaming.api.scala._
 
 case class SensorReading(id: String, timestamp: Long, temperature: Double)
 
+/**
+ * bound data
+ */
 object SourceTest {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment;
@@ -22,6 +25,8 @@ object SourceTest {
     stream2.print("stream1").setParallelism(4)
 
     env.execute()
+
+
   }
 
 }
