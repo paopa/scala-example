@@ -9,7 +9,12 @@ object StreamingWordCount {
 
     val stream = env.socketTextStream("localhost", 7777)
 
-    val wordCount = stream.flatMap(_.split(" ")).startNewChain()
+//    val wordCount = stream.flatMap(_.split(" ")).startNewChain()
+//      .map((_, 1))
+//      .keyBy(0)
+//      .sum(1)
+
+    val wordCount = stream.flatMap(_.split(" "))
       .map((_, 1))
       .keyBy(0)
       .sum(1)
