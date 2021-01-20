@@ -7,7 +7,7 @@ case class SensorReading(id: String, timestamp: Long, temperature: Double)
 /**
  * bound data
  */
-object SourceTest {
+object Source {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment;
     //1. 自定義 collection
@@ -19,10 +19,10 @@ object SourceTest {
     ))
 
     //2. from file
-    val stream2 = env.readTextFile("")
+//    val stream2 = env.readTextFile("")
 
-    //    stream1.print("stream1").setParallelism(4)
-    stream2.print("stream1").setParallelism(4)
+        stream1.print("stream1").setParallelism(4)
+//    stream2.print("stream1").setParallelism(4)
 
     env.execute()
 

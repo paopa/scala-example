@@ -9,7 +9,7 @@ import java.util.Properties
 /**
  * unbound data
  */
-object SourceTest {
+object Source {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     val props = new Properties()
