@@ -39,20 +39,29 @@ object WhileTest {
     //      i = i + 1
     //    }
 
-    val break = new Breaks
-    val continue = new Breaks
+//    val break = new Breaks
+//    val continue = new Breaks
 
-    break.breakable {
-      while (i < 10) {
-        continue.breakable {
-          if (i % 2 == 0) {
-            continue break
-          } else if (i == 7) {
-            break break
-          }
-          println(i)
+//    break.breakable {
+//      while (i < 10) {
+//        continue.breakable {
+//          if (i % 2 == 0) {
+//            continue break
+//          } else if (i == 7) {
+//            break break
+//          }
+//          println(i)
+//        }
+//        i = i + 1
+//      }
+//    }
+
+    for (i <- 0 to 10) {
+      breakable {
+        if (i % 2 != 0) {
+          break()
         }
-        i = i + 1
+        println(i)
       }
     }
   }
