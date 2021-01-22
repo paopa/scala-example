@@ -6,7 +6,7 @@ package per.pao.example.syntax.base.loop
  * 3.需要多個計數器時
  * 4.迴圈需要產生一組新個 collection 物件
  */
-object Test {
+object ForTest {
 
   def mock() = Array("a", "b", "c", "dd")
 
