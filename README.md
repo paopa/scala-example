@@ -1,4 +1,4 @@
-# scala-example
+# scala-practice
 
 ## Environment
 
