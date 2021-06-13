@@ -1,4 +1,4 @@
-package per.pao.example.syntax.base.ifexpression
+package per.pao.example.syntax.base.if_.expression
 
 object IfExpressionTest {
   def main(args: Array[String]): Unit = {

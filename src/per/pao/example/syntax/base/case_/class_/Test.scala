@@ -1,4 +1,4 @@
-package per.pao.example.syntax.base.caseclass
+package per.pao.example.syntax.base.case_.class_
 
 case class Test(a: String, b: String, c: String) {
   def echoMsg: Unit = println("hi")
