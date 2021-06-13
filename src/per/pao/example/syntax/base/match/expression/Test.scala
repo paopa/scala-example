@@ -1,4 +1,4 @@
-package per.pao.example.syntax.base.matchexpression
+package per.pao.example.syntax.base.`match`.expression
 
 object Test {
 
