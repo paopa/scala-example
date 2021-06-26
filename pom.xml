@@ -4,15 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>per.pao.scala.practice</groupId>
     <artifactId>scala-practice</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+    <modules>
+        <module>base</module>
+    </modules>
 
-    </dependencies>
-
-    <build>
-
-    </build>
 </project>
